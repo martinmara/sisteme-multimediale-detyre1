@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/form.css">
+    <title>Forma e Regjistrimit</title>
+
+</head>
+
+<body>
+
+    <form>
+        <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">FORME REGJISTRIMI
+        </h1>
+
+        <input type="text" id="name" name="name" required placeholder="emri">
+
+
+        <input type="text" id="surname" name="surname" required placeholder="mbiemer">
+
+
+        <input type="text" id="username" name="username" required placeholder="username">
+
+
+        <input type="email" id="email" name="email" required placeholder="adresa/email">
+
+
+        <input type="password" id="password" name="password" required placeholder="password">
+
+
+        <input type="text" id="address" name="address" required placeholder="adresa">
+
+
+        <input type="text" id="city" name="city" required placeholder="qyteti">
+
+
+        <input type="text" id="zip" name="zip" required placeholder="zip code">
+
+        <label for="gender">Gjinia:</label>
+        <input type="radio" id="Femer">
+        <label for="Femer">Femer</label>
+        <input type="radio" id="Mashkull">
+        <label for="Mashkull">Mashkull</label>
+
+
+        <label>Gjuha:</label>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">Anglisht</label>
+        <input type="checkbox" id="spanish" name="language" value="spanish">
+        <label for="spanish">Spanjisht</label>
+
+        <label for="interviewDate">Data e Mundshme për Intervistë:</label>
+        <input type="date" id="interviewDate" name="interviewDate">
+
+        <label for="motivationSection">Seksioni i Letrës së Motivimit:</label>
+        <textarea id="motivationSection" name="motivationSection" rows="4"></textarea>
+
+        <div class="dorezo" style="text-align: center;">
+            <button type="submit">Dorëzo</button>
+        </div>
+    </form>
+
+    <footer>
+        Adresa e Institucionit Pranues | Numri i Kontaktit
+    </footer>
+
+</body>
+
+</html>

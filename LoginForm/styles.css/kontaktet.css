@@ -1,0 +1,24 @@
+#contacts-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+  }
+  .contact:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  .contact-info {
+    display: none;
+    padding: 10px;
+  }
+  .contact:hover .contact-info {
+    display: block;
+  }
